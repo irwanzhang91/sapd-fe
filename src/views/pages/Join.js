@@ -147,6 +147,31 @@ class Join extends Component{
                 </div>
             </div>
 
+            <div className="faq-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-90 pb-lg-70 pb-md-60 pb-sm-50 pb-xs-40">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                          <div className="faq-content">
+                              <div className="faq-desc">
+
+                                <hr className="bold-hr"/>
+                                <h2>Cara ikut menyumbang</h2>
+                                <p className="about-us-pera-mb">
+                                  Teman-teman yang sangat ingin mengambil peran, dapat mengirimkan donasi dengan cara transfer ke:<br />
+                                  <b>BCA - atas nama Elizabet - 4081.314.041</b><br /><br />
+                                  Teman-teman dapat tambahkan angka 9 di akhir nominal.<br />
+                                  Contoh: Rp. 1.000.009 atau Rp. 10.009<br /><br />
+                                  Teman-teman yang telah melakukan transfer, dapat memasukkan pesan ke formulir di bawah~<br /><br />
+                                  Terima kasih!<br />
+                                  <b>Let's fight together!</b>
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
             <div className="checkout-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
               <div className="container">
 
@@ -178,7 +203,7 @@ class Join extends Component{
                                         </select>
                                     </div>
                                     <div className="col-md-12 col-12 mb-20">
-                                        <p><label>Note</label></p>
+                                        <p><label>Pesan untuk kami</label></p>
                                         <input type="text" placeholder="catatan" value={ this.state.catatan } onChange={ this.handleCatatan }/>
                                     </div>
 

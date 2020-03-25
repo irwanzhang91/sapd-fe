@@ -461,6 +461,41 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         left: -6px;
         top: -6px; } }
 
+.btn-lg {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 12px;
+  height: 80px;
+  width: 500px
+  font-weight: 600;
+  padding: 22px 30px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none; }
+  .btn:hover {
+    color: #ffffff;
+    background-color: #333333; }
+  @media only screen and (max-width: 767px) {
+    .btn {
+      font-size: 14px;
+      line-height: 23px;
+      height: 45px;
+      padding: 10px 25px; }
+      .btn:hover::before {
+        left: 6px;
+        top: 6px; }
+      .btn:hover::after {
+        left: -6px;
+        top: -6px; } }
+
 /*--
     - Page Banner Section
 ------------------------------------------*/

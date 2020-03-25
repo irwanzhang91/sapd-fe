@@ -97,7 +97,7 @@ class Update extends Component{
                                     <hr className="bold-hr"/>
                                     <p className="about-us-pera-mb">
                                       Mau ikut membantu ?<br />
-                                      <Link className="btn" to="/join"><i className="fa fa-heart"></i> <span>Join</span></Link>
+                                      <Link className="btn-lg" to="/join"><i className="fa fa-heart"></i> <span>Join</span></Link>
                                     </p>
                                 </div>
                               </div>
