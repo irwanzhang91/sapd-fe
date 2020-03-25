@@ -15,7 +15,7 @@ class Product extends Component{
                         <div className="col">
 
                             <div className="page-banner text-center">
-                                <h1>Yang akan kami sediakan</h1>
+                                <h1>Yang akan kami sumbang</h1>
                             </div>
 
                         </div>
