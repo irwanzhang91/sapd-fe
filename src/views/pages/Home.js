@@ -5,6 +5,9 @@ import AlertBox from './sections/AlertBox';
 import Product from './Product';
 import Update from './Update';
 
+import update1 from '../../img/update/1.png';
+
+
 class Home extends Component{
 
     constructor(props){
@@ -82,10 +85,11 @@ class Home extends Component{
                                       <br />
                                       <p className="about-us-pera-mb">
                                         Target pertama kami adalah membeli perlengkapan ini untuk dibagi:<br />
+                                        1 pcs hazmat disposable 27/28 Maret 2020<br />
                                         70pcs Hazmat disposable 27/28 Maret 2020<br />
                                         20pcs hazmat sritex perkiraan tgl 6-8 April 2020<br />
                                         100pcs Hazmat spundbond tgl 6 April 2020<br />
-                                        40 pcs n95
+                                        40 pcs n95 (sumbangan barang)
                                       </p>
                                       <br />
                                       <p className="about-us-pera-mb">
@@ -93,6 +97,10 @@ class Home extends Component{
                                         #Dirumahaja
                                       </p>
                                       <hr className="bold-hr"/>
+                                      <p className="about-us-pera-mb">
+                                        <b>Update Saldo</b>
+                                      </p>
+                                      <img src={ update1 } alt="Update Saldo"/>
                                   </div>
                                 </div>
                               </div>

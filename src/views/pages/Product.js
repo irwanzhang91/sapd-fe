@@ -41,9 +41,11 @@ class Product extends Component{
                                     <div className="product-content text-left">
                                         <h2>Baju Pelindung</h2>
                                         <span>Waterproof, sekali pakai, untuk medical</span>
-                                        <div className="single-product-price">
-                                          <span className="price new-price">Rp. 250.000,-</span>
-                                        </div>
+                                        { false &&
+                                          <div className="single-product-price">
+                                            <span className="price new-price">Rp. 250.000,-</span>
+                                          </div>
+                                        }
                                     </div>
 
                                   </div>
