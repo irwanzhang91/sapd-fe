@@ -162,7 +162,7 @@ class Join extends Component{
                                   <div className="row">
 
                                     <div className="col-md-12 col-12 mb-20">
-                                        <p><label>Nominal <span className="required">*</span></label></p>
+                                        <p><label>Nominal (Akhiri dengan 9 yah teman-teman)<span className="required">*</span></label></p>
                                         <input type="text" placeholder="Nominal" value={ this.state.nominal } onChange={ this.handleNominalChange } />
                                     </div>
 

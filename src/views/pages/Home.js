@@ -81,6 +81,14 @@ class Home extends Component{
                                       </p>
                                       <br />
                                       <p className="about-us-pera-mb">
+                                        Target pertama kami adalah membeli perlengkapan ini untuk dibagi:<br />
+                                        70pcs Hazmat disposable 27/28 Maret 2020<br />
+                                        20pcs hazmat sritex perkiraan tgl 6-8 April 2020<br />
+                                        100pcs Hazmat spundbond tgl 6 April 2020<br />
+                                        40 pcs n95
+                                      </p>
+                                      <br />
+                                      <p className="about-us-pera-mb">
                                         Akhir kata. <b>Let's fight this together !!</b><br />
                                         #Dirumahaja
                                       </p>

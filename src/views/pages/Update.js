@@ -50,6 +50,10 @@ class Update extends Component{
 
     render(){
 
+      if(this.state.updates.length <= 0) {
+        return null
+      }
+
         return(
             <React.Fragment>
               <div className="page-banner-section section bg-gray">
