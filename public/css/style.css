@@ -6603,3 +6603,7 @@ img.small-banner {
     visibility: visible !important;
   }
 }
+
+.bold-link {
+  font-weight: 600;
+}

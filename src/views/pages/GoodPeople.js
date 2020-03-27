@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import {fetchAPI, getApiUrl} from '../../custom/requestFunction.js';
 import {getFullDateTime} from '../../custom/monthFunction.js';
+
+import Cta from './Cta.js'
 
 class GoodPeople extends Component{
 
@@ -100,11 +101,7 @@ class GoodPeople extends Component{
                                     </div>
                                     }
 
-                                    <hr className="bold-hr"/>
-                                    <p className="about-us-pera-mb">
-                                      Mau ikut membantu ?<br />
-                                      <Link className="btn" to="/join"><i className="fa fa-heart"></i> <span>Join</span></Link>
-                                    </p>
+                                    <Cta />
                                 </div>
                               </div>
                             </div>

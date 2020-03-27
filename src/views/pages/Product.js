@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import product1 from '../../img/apd1.jpeg';
+import product2 from '../../img/apd2.jpeg';
 
 class Product extends Component{
 
@@ -33,7 +34,7 @@ class Product extends Component{
                         <div className="product-grid-view">
                             <div className="row">
                               <div className="col-2 col-lg-2 col-xl-2"></div>
-                              <div className="col-8 col-lg-8 col-xl-8">
+                              <div className="col-4 col-lg-4 col-xl-4">
                                   <div className="single-product mb-30">
                                     <div className="product-img">
                                           <img src={ product1 } alt="APD 1" />
@@ -50,6 +51,23 @@ class Product extends Component{
 
                                   </div>
                               </div>
+                              <div className="col-4 col-lg-4 col-xl-4">
+                                  <div className="single-product mb-30">
+                                    <div className="product-img">
+                                          <img src={ product2 } alt="APD 2" />
+                                    </div>
+                                    <div className="product-content text-left">
+                                        <h2>Alat Pelindung Diri</h2>
+                                        <span>Anti Microbial & Water Resistant</span>
+                                        { false &&
+                                          <div className="single-product-price">
+                                            <span className="price new-price">Rp. 250.000,-</span>
+                                          </div>
+                                        }
+                                    </div>
+
+                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
