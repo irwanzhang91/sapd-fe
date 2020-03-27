@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import product1 from '../../img/apd1.jpeg';
 import product2 from '../../img/apd2.jpeg';
+import product3 from '../../img/sensi-mask.jpeg';
 
 class Product extends Component{
 
@@ -16,7 +17,7 @@ class Product extends Component{
                         <div className="col">
 
                             <div className="page-banner text-center">
-                                <h1>Yang akan kami sumbang</h1>
+                                <h1>Yang akan kami donasikan</h1>
                             </div>
 
                         </div>
@@ -33,7 +34,6 @@ class Product extends Component{
                     <div className="shop-product">
                         <div className="product-grid-view">
                             <div className="row">
-                              <div className="col-2 col-lg-2 col-xl-2"></div>
                               <div className="col-4 col-lg-4 col-xl-4">
                                   <div className="single-product mb-30">
                                     <div className="product-img">
@@ -68,6 +68,24 @@ class Product extends Component{
 
                                   </div>
                                 </div>
+                                <div className="col-4 col-lg-4 col-xl-4">
+                                    <div className="single-product mb-30">
+                                      <div className="product-img">
+                                            <img src={ product3 } alt="Sensi Mask" />
+                                      </div>
+                                      <div className="product-content text-left">
+                                          <h2>Sensi Mask</h2>
+                                          <span>3 Ply Headloop</span>
+                                          { false &&
+                                            <div className="single-product-price">
+                                              <span className="price new-price">Rp. 250.000,-</span>
+                                            </div>
+                                          }
+                                      </div>
+
+                                    </div>
+                                  </div>
+
                             </div>
                         </div>
                     </div>

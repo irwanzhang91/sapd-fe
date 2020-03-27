@@ -63,7 +63,7 @@ class Update extends Component{
                           <div className="col">
 
                               <div className="page-banner text-center">
-                                  <h1>Update</h1>
+                                  <h1>Update Pembelian</h1>
                               </div>
 
                           </div>
