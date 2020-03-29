@@ -27,6 +27,7 @@ class Join extends Component{
             filebase64: '',
 
             isRedirect: false,
+            isSubmitting: false,
         }
 
         this.handleNama = this.handleNama.bind(this);
@@ -98,14 +99,21 @@ class Join extends Component{
             })
         }else {
 
-            fetchAPI('join', 'POST', data, (response) => {
+          if(this.state.isSubmitting === false) {
+            this.setState({
+              isSubmitting: true
+            }, () => {
+              fetchAPI('join', 'POST', data, (response) => {
                 if(response.result){
-                    window.scrollTo(0,0);
-                    this.setState({
-                        isRedirect: true,
-                    });
+                  window.scrollTo(0,0);
+                  this.setState({
+                    isRedirect: true,
+                  });
                 }
-            });
+              });
+            })
+          }
+
 
         }
     }
