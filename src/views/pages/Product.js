@@ -34,10 +34,10 @@ class Product extends Component{
                     <div className="shop-product">
                         <div className="product-grid-view">
                             <div className="row">
-                              <div className="col-4 col-lg-4 col-xl-4">
+                              <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
                                   <div className="single-product mb-30">
                                     <div className="product-img">
-                                          <img src={ product1 } alt="APD 1" />
+                                          <img style={{ maxHeight: "400px" }} src={ product1 } alt="APD 1" />
                                     </div>
                                     <div className="product-content text-left">
                                         <h2>Baju Pelindung</h2>
@@ -51,10 +51,10 @@ class Product extends Component{
 
                                   </div>
                               </div>
-                              <div className="col-4 col-lg-4 col-xl-4">
+                              <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
                                   <div className="single-product mb-30">
                                     <div className="product-img">
-                                          <img src={ product2 } alt="APD 2" />
+                                          <img style={{ maxHeight: "400px" }} src={ product2 } alt="APD 2" />
                                     </div>
                                     <div className="product-content text-left">
                                         <h2>Alat Pelindung Diri</h2>
@@ -68,10 +68,10 @@ class Product extends Component{
 
                                   </div>
                                 </div>
-                                <div className="col-4 col-lg-4 col-xl-4">
+                                <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
                                     <div className="single-product mb-30">
                                       <div className="product-img">
-                                            <img src={ product3 } alt="Sensi Mask" />
+                                            <img style={{ maxHeight: "400px" }} src={ product3 } alt="Sensi Mask" />
                                       </div>
                                       <div className="product-content text-left">
                                           <h2>Sensi Mask</h2>

@@ -35,13 +35,17 @@ class Update extends Component{
         if(updates.length>0){
             updates_list = updates.map((o,i) => {
                 return (
-                  <tr key={ `updates_list${i}`}>
-                    <td>{ getFullDateTime(new Date(o.created_at)) }</td>
-                    <td>
-                      <img style={{ height: "400px" }} src={ getApiUrl(o.image_path) } alt={ `fotoupdate${i}`}/>
-                    </td>
-                    <td>{ o.update_text }</td>
-                  </tr>
+                    <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6" key={ `update_list${i}`}>
+                      <div className="single-product mb-30">
+                        <div className="product-img">
+                              <img style={{ maxHeight: "400px" }} src={ getApiUrl(o.image_path) } alt={ `fotoupdate${i}` } />
+                        </div>
+                        <div className="product-content text-left">
+                            <h3>{ o.update_text }</h3>
+                            <span>{ getFullDateTime(new Date(o.created_at)) }</span>
+                        </div>
+                      </div>
+                  </div>
                 )
             })
         }
@@ -55,54 +59,41 @@ class Update extends Component{
         return null
       }
 
-        return(
-            <React.Fragment>
-              <div className="page-banner-section section bg-gray">
-                  <div className="container">
-                      <div className="row">
-                          <div className="col">
+        return(<React.Fragment>
+          <div className="page-banner-section section bg-gray">
+              <div className="container">
+                  <div className="row">
+                      <div className="col">
 
-                              <div className="page-banner text-center">
-                                  <h1>Update Pembelian</h1>
-                              </div>
-
+                          <div className="page-banner text-center">
+                              <h1>Update Pembelian</h1>
                           </div>
+
                       </div>
                   </div>
               </div>
-                <div className="faq-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-90 pb-lg-70 pb-md-60 pb-sm-50 pb-xs-40">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-12">
-                              <div className="faq-content">
-                                  <div className="faq-desc">
+          </div>
 
-                                    <hr className="bold-hr"/>
-                                    { this.state.updates.length > 0 &&
-                                    <div className="cart-table table-responsive mb-30">
-                                        <table className="table">
-                                            <thead>
-                                                <tr>
-                                                    <th className="pro-title">Tanggal</th>
-                                                    <th className="pro-title">Foto</th>
-                                                    <th className="pro-quantity">Update</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                              { this.showUpdate() }
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    }
+          <div className="shop-section section pt-90 pt-lg-70 pt-md-60 pt-sm-50 pt-xs-45 pb-70 pb-lg-50 pb-md-40 pb-sm-60 pb-xs-50">
+            <div className="container">
+                <div className="row">
+                  <div className="col-12">
 
-                                    <Cta />
-                                </div>
-                              </div>
-                            </div>
-                        </div>
+                    <div className="shop-product">
+                        <div className="product-grid-view">
+                            <div className="row">
+                              { this.showUpdate() }
+                          </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </React.Fragment>
+
+                <Cta />
+              </div>
+            </div>
+
+          </React.Fragment>
         );
     }
 }

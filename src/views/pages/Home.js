@@ -3,6 +3,7 @@ import queryString from 'query-string';
 
 import AlertBox from './sections/AlertBox';
 import Product from './Product';
+import Progress from './Progress';
 import Update from './Update';
 
 import update1 from '../../img/update/1.png';
@@ -84,12 +85,19 @@ class Home extends Component{
                                       </p>
                                       <br />
                                       <p className="about-us-pera-mb">
-                                        Target pertama kami adalah membeli perlengkapan ini untuk dibagi:<br />
+                                        Target pertama kami <b>telah Berhasil kami salurkan</b> yaitu:<br />
                                         1 pcs hazmat disposable 27/28 Maret 2020<br />
                                         70pcs Hazmat disposable 27/28 Maret 2020<br />
                                         20pcs hazmat sritex perkiraan tgl 6-8 April 2020<br />
-                                        100pcs Hazmat spundbond tgl 6 April 2020<br />
+                                        100pcs Hazmat spundbond<br />
                                         40 pcs n95 (sumbangan barang)
+                                      </p>
+                                      <br />
+                                      <p className="about-us-pera-mb">
+                                        Setelah kami menjalani ini, kami mendapatkan banyak sekali permintaan bantuan dari teman-teman medis di lapangan.<br />
+                                        Tidak hanya teman medis, donatur juga masih terus mengulurkan tangan kepada kami dan mempercayai bahwa kami dapat menyalurkannya kepada pihak yang benar.<br />
+                                        Oleh karena itu, kami putuskan, kami akan teruskan kebaikan ini dengan target:<br />
+                                        <b>Membantu menyalurkan kebutuhan medis khususnya untuk penanganan Covid-19 pada daerah yang terdampak.</b>
                                       </p>
                                       <br />
                                       <p className="about-us-pera-mb">
@@ -109,6 +117,8 @@ class Home extends Component{
                   </div>
 
                   <Product />
+
+                  <Progress />
 
                   <Update />
 
