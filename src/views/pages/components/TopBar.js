@@ -39,8 +39,6 @@ class TopBar extends Component{
                             <nav className="main-menu">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/donation">Our Donation</Link></li>
-                                    <li><Link to="/join">Join</Link></li>
                                     <li><Link to="/goodpeople">Good People</Link></li>
                                 </ul>
                             </nav>

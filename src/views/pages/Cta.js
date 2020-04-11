@@ -7,8 +7,9 @@ class Cta extends Component {
       <React.Fragment>
         <hr className="bold-hr"/>
         <p className="about-us-pera-mb">
-          Mau ikut membantu ?<br />
-          <Link className="btn-lg" to="/join"><i className="fa fa-heart"></i> <span>Join</span></Link>
+          Dengan berat hati, kami terpaksa menutup pintu donasi pada tanggal <b>10 April 2020 Jam 21.00 WIB.</b><br />
+          Semoga semangat ini dapat terus membara dan menjadi karakter dari bangsa kita.<br />
+          Terima kasih kepada seluruh teman-teman donatur.
         </p>
         <hr className="bold-hr"/>
         <p className="bold-link">

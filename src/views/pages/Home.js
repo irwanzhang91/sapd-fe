@@ -109,6 +109,21 @@ class Home extends Component{
                                         <b>Update Saldo</b>
                                       </p>
                                       <img src={ update1 } alt="Update Saldo"/>
+
+                                      <hr className="bold-hr"/>
+                                      <h2>Pencapaian Donatur</h2>
+                                      <p className="about-us-pera-mb">
+                                        <b>Efektif Pengumpulan Donasi: 23 Maret 2020 - 10 April 2020</b>
+                                        <b>Total Dana Terkumpul: Rp. 116,272,193</b><br/>
+                                        <b>Total Dana Terpakai: Rp. 110,874,696</b><br/>
+                                        <b>Total Dana Tersisa: Rp. 5,397,497</b>
+                                      </p>
+                                      <p className="about-us-pera-mb">
+                                        Seluruh dana tersisa akan kami sumbangkan kembali atas nama <b>SumbangAPD.com</b> kepada teman-teman volunteer di luar sana yang membutuhkan.<br />
+                                        Berikut daftar tujuan donasi kami:<br />
+                                        1.
+                                      </p>
+
                                   </div>
                                 </div>
                               </div>

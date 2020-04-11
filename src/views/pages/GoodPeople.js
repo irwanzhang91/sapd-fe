@@ -78,6 +78,7 @@ class GoodPeople extends Component{
                                     <hr className="bold-hr"/>
                                     <p className="about-us-pera-mb">
                                       Berikut adalah daftar Good People yang telah ikut dalam mengulurkan tangan untuk melawan wabah pandemik COVID-19 ini.<br />
+                                      Seluruh Good People dalam daftar ini adalah mereka yang mengunggah bukti pengiriman donasi, namun ada begitu banyak teman-teman donatur lainnya yang tidak melakukannya. <br />
                                       Terima kasih untuk <b>SILENT ANGELS</b> !
                                     </p>
 
