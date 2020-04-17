@@ -1,5 +1,14 @@
 import React, {Component} from 'react';
 
+import pic3_1 from '../../img/batch/batch3/1.jpeg';
+import pic3_2 from '../../img/batch/batch3/2.jpeg';
+import pic3_3 from '../../img/batch/batch3/3.jpeg';
+import pic3_4 from '../../img/batch/batch3/4.jpeg';
+import pic3_5 from '../../img/batch/batch3/5.jpeg';
+import pic3_6 from '../../img/batch/batch3/6.jpeg';
+import pic3_7 from '../../img/batch/batch3/7.jpeg';
+import pic3_8 from '../../img/batch/batch3/8.jpeg';
+
 import pic2_1 from '../../img/batch/batch2/1.jpeg';
 import pic2_2 from '../../img/batch/batch2/2.jpeg';
 
@@ -26,6 +35,98 @@ class Progress extends Component{
 
         return(
           <React.Fragment>
+            <div className="page-banner-section section bg-gray">
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+
+                            <div className="page-banner text-center">
+                                <h1>Batch 3</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="shop-section section pt-90 pt-lg-70 pt-md-60 pt-sm-50 pt-xs-45 pb-70 pb-lg-50 pb-md-40 pb-sm-60 pb-xs-50">
+              <div className="container">
+                  <div className="row">
+                    <div className="col-12">
+
+                      <div className="shop-product">
+                          <div className="product-grid-view">
+                              <div className="row">
+                                <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                    <div className="single-product mb-30">
+                                      <div className="product-img">
+                                            <img style={{ maxHeight: "400px" }} src={ pic3_1 } alt="Batch 3 - Pic 1" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                    <div className="single-product mb-30">
+                                      <div className="product-img">
+                                            <img style={{ maxHeight: "400px" }} src={ pic3_2 } alt="Batch 3 - Pic 2" />
+                                      </div>
+                                    </div>
+                                </div>
+                                <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                    <div className="single-product mb-30">
+                                      <div className="product-img">
+                                            <img style={{ maxHeight: "400px" }} src={ pic3_3 } alt="Batch 3 - Pic 3" />
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                              <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                  <div className="single-product mb-30">
+                                    <div className="product-img">
+                                          <img style={{ maxHeight: "400px" }} src={ pic3_4 } alt="Batch 3 - Pic 4" />
+                                    </div>
+                                  </div>
+                              </div>
+                              <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                  <div className="single-product mb-30">
+                                    <div className="product-img">
+                                          <img style={{ maxHeight: "400px" }} src={ pic3_5 } alt="Batch 3 - Pic 5" />
+                                    </div>
+                                  </div>
+                              </div>
+                              <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                  <div className="single-product mb-30">
+                                    <div className="product-img">
+                                          <img style={{ maxHeight: "400px" }} src={ pic3_6 } alt="Batch 3 - Pic 6" />
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                <div className="single-product mb-30">
+                                  <div className="product-img">
+                                        <img style={{ maxHeight: "400px" }} src={ pic3_7 } alt="Batch 3 - Pic 7" />
+                                  </div>
+                                </div>
+                            </div>
+                            <div className="col-6 col-lg-4 col-xl-4 col-md-6 col-sm-6 col-xs-6">
+                                <div className="single-product mb-30">
+                                  <div className="product-img">
+                                        <img style={{ maxHeight: "400px" }} src={ pic3_8 } alt="Batch 3 - Pic 8" />
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             <div className="page-banner-section section bg-gray">
                 <div className="container">
                     <div className="row">
