@@ -9,7 +9,7 @@
     "react-facebook-login": "^4.1.1",
     "react-owl-carousel2": "^0.3.0",
     "react-paginate": "^6.3.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "2.1.8",
     "react-select": "^2.4.2"
   },
